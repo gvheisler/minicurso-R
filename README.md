@@ -3,6 +3,11 @@
 
 <img src="Recursos/logo_pet.png" alt="Logo do programa PET-CC da UFSM" width="200"/> <img src="Recursos/UFSM Logo.png" alt="Logo da Universidade Federal de Santa Maria" width="200"/>
 
+<picture>
+    <source srcset="Recursos/logo_pet.png"  media="(prefers-color-scheme: dark)" alt="Logo do programa PET-CC da UFSM" width="200">
+    <img src="Recursos/UFSM Logo.png">
+</picture>
+
 ## Ementa
 1. Introdução à Linguagem R
 2. Manipulação de Dados
