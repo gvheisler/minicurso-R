@@ -17,4 +17,3 @@
 3. Análise Exploratória de Dados
 4. Visualização de Dados
 
-## Referências
