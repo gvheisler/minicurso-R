@@ -11,6 +11,7 @@
 </picture>
 
 ## Ementa
+
 1. Introdução à Linguagem R
 2. Manipulação de Dados
 3. Análise Exploratória de Dados
