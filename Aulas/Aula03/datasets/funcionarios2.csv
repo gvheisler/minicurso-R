@@ -1,0 +1,121 @@
+id;nome;idade;departamento;salario;data_admissao;cidade
+1;Maria Silva;35.0;Vendas;4500.5;2015-06-22;Sao Paulo
+2;João Souza;28.0;Tecnologia;5300.0;2019-03-12;São paulo
+3;Pedro Lima;45.0;RH;5200.75;2011-08-05;Rio de Janeiro
+4;Ana Costa;;Financeiro;4800.0;2018-01-18;RiodeJaneiro
+5;Lucas Pereira;32.0;Vendas;;2017-05-27;Sao Paulo
+6;Marcelo Andrade;50.0;tecnologia;6800.9;2010-02-11;São Paulo
+7;Clara Alves;42.0;RH;;2013-07-23;Belo Horizonte
+8;Julia Santos;31.0;Vendas;4100.0;2020-09-30;Belo Horizonte
+9;Ricardo Gomes;39.0;Financeiro;4700.65;2016-11-14;RiodeJaneiro
+10;Tatiana Souza;44.0;Tecnologia;7300.0;2010-05-08;SaoPaulo
+11;Gustavo Araújo;50.0;Vendas;4700.9;2008-12-22;Rio de janeiro
+12;Bianca Lima;26.0;Tecnologia;;2019-10-21;São Paulo
+13;Paula Mendes;33.0;Financeiro;5400.0;2017-03-14;Rio de janeiro
+14;Rafael Diniz;27.0;RH;3900.3;2020-11-19;Belo Horizonte
+15;Luciana Pires;38.0;Vendas;4500.0;2015-02-17;Sao Paulo
+16;Thiago Martins;49.0;tecnologia;7200.0;2011-05-02;SãoPaulo
+17;Renata Oliveira;36.0;Financeiro;;2012-09-10;RiodeJaneiro
+18;Carlos Silva;41.0;Vendas;5100.5;2016-06-25;São Paulo
+19;Patrícia Castro;30.0;Tecnologia;6800.0;2019-02-07;Sao Paulo
+20;Fernanda Moreira;34.0;RH;4900.0;2013-08-15;Rio de Janeiro
+21;Maria Silva;35.0;Vendas;4500.5;2015-06-22;Sao Paulo
+22;João Souza;28.0;Tecnologia;5300.0;2019-03-12;São paulo
+23;Pedro Lima;45.0;RH;5200.75;2011-08-05;Rio de Janeiro
+24;Ana Costa;;Financeiro;4800.0;2018-01-18;RiodeJaneiro
+25;Lucas Pereira;32.0;Vendas;;2017-05-27;Sao Paulo
+26;Marcelo Andrade;50.0;tecnologia;6800.9;2010-02-11;São Paulo
+27;Clara Alves;42.0;RH;;2013-07-23;Belo Horizonte
+28;Julia Santos;31.0;Vendas;4100.0;2020-09-30;Belo Horizonte
+29;Ricardo Gomes;39.0;Financeiro;4700.65;2016-11-14;RiodeJaneiro
+30;Tatiana Souza;44.0;Tecnologia;7300.0;2010-05-08;SaoPaulo
+31;Gustavo Araújo;50.0;Vendas;4700.9;2008-12-22;Rio de janeiro
+32;Bianca Lima;26.0;Tecnologia;;2019-10-21;São Paulo
+33;Paula Mendes;33.0;Financeiro;5400.0;2017-03-14;Rio de janeiro
+34;Rafael Diniz;27.0;RH;3900.3;2020-11-19;Belo Horizonte
+35;Luciana Pires;38.0;Vendas;4500.0;2015-02-17;Sao Paulo
+36;Thiago Martins;49.0;tecnologia;7200.0;2011-05-02;SãoPaulo
+37;Renata Oliveira;36.0;Financeiro;;2012-09-10;RiodeJaneiro
+38;Carlos Silva;41.0;Vendas;5100.5;2016-06-25;São Paulo
+39;Patrícia Castro;30.0;Tecnologia;6800.0;2019-02-07;Sao Paulo
+40;Fernanda Moreira;34.0;RH;4900.0;2013-08-15;Rio de Janeiro
+41;Maria Silva;35.0;Vendas;4500.5;2015-06-22;Sao Paulo
+42;João Souza;28.0;Tecnologia;5300.0;2019-03-12;São paulo
+43;Pedro Lima;45.0;RH;5200.75;2011-08-05;Rio de Janeiro
+44;Ana Costa;;Financeiro;4800.0;2018-01-18;RiodeJaneiro
+45;Lucas Pereira;32.0;Vendas;;2017-05-27;Sao Paulo
+46;Marcelo Andrade;50.0;tecnologia;6800.9;2010-02-11;São Paulo
+47;Clara Alves;42.0;RH;;2013-07-23;Belo Horizonte
+48;Julia Santos;31.0;Vendas;4100.0;2020-09-30;Belo Horizonte
+49;Ricardo Gomes;39.0;Financeiro;4700.65;2016-11-14;RiodeJaneiro
+50;Tatiana Souza;44.0;Tecnologia;7300.0;2010-05-08;SaoPaulo
+51;Gustavo Araújo;50.0;Vendas;4700.9;2008-12-22;Rio de janeiro
+52;Bianca Lima;26.0;Tecnologia;;2019-10-21;São Paulo
+53;Paula Mendes;33.0;Financeiro;5400.0;2017-03-14;Rio de janeiro
+54;Rafael Diniz;27.0;RH;3900.3;2020-11-19;Belo Horizonte
+55;Luciana Pires;38.0;Vendas;4500.0;2015-02-17;Sao Paulo
+56;Thiago Martins;49.0;tecnologia;7200.0;2011-05-02;SãoPaulo
+57;Renata Oliveira;36.0;Financeiro;;2012-09-10;RiodeJaneiro
+58;Carlos Silva;41.0;Vendas;5100.5;2016-06-25;São Paulo
+59;Patrícia Castro;30.0;Tecnologia;6800.0;2019-02-07;Sao Paulo
+60;Fernanda Moreira;34.0;RH;4900.0;2013-08-15;Rio de Janeiro
+61;Maria Silva;35.0;Vendas;4500.5;2015-06-22;Sao Paulo
+62;João Souza;28.0;Tecnologia;5300.0;2019-03-12;São paulo
+63;Pedro Lima;45.0;RH;5200.75;2011-08-05;Rio de Janeiro
+64;Ana Costa;;Financeiro;4800.0;2018-01-18;RiodeJaneiro
+65;Lucas Pereira;32.0;Vendas;;2017-05-27;Sao Paulo
+66;Marcelo Andrade;50.0;tecnologia;6800.9;2010-02-11;São Paulo
+67;Clara Alves;42.0;RH;;2013-07-23;Belo Horizonte
+68;Julia Santos;31.0;Vendas;4100.0;2020-09-30;Belo Horizonte
+69;Ricardo Gomes;39.0;Financeiro;4700.65;2016-11-14;RiodeJaneiro
+70;Tatiana Souza;44.0;Tecnologia;7300.0;2010-05-08;SaoPaulo
+71;Gustavo Araújo;50.0;Vendas;4700.9;2008-12-22;Rio de janeiro
+72;Bianca Lima;26.0;Tecnologia;;2019-10-21;São Paulo
+73;Paula Mendes;33.0;Financeiro;5400.0;2017-03-14;Rio de janeiro
+74;Rafael Diniz;27.0;RH;3900.3;2020-11-19;Belo Horizonte
+75;Luciana Pires;38.0;Vendas;4500.0;2015-02-17;Sao Paulo
+76;Thiago Martins;49.0;tecnologia;7200.0;2011-05-02;SãoPaulo
+77;Renata Oliveira;36.0;Financeiro;;2012-09-10;RiodeJaneiro
+78;Carlos Silva;41.0;Vendas;5100.5;2016-06-25;São Paulo
+79;Patrícia Castro;30.0;Tecnologia;6800.0;2019-02-07;Sao Paulo
+80;Fernanda Moreira;34.0;RH;4900.0;2013-08-15;Rio de Janeiro
+81;Maria Silva;35.0;Vendas;4500.5;2015-06-22;Sao Paulo
+82;João Souza;28.0;Tecnologia;5300.0;2019-03-12;São paulo
+83;Pedro Lima;45.0;RH;5200.75;2011-08-05;Rio de Janeiro
+84;Ana Costa;;Financeiro;4800.0;2018-01-18;RiodeJaneiro
+85;Lucas Pereira;32.0;Vendas;;2017-05-27;Sao Paulo
+86;Marcelo Andrade;50.0;tecnologia;6800.9;2010-02-11;São Paulo
+87;Clara Alves;42.0;RH;;2013-07-23;Belo Horizonte
+88;Julia Santos;31.0;Vendas;4100.0;2020-09-30;Belo Horizonte
+89;Ricardo Gomes;39.0;Financeiro;4700.65;2016-11-14;RiodeJaneiro
+90;Tatiana Souza;44.0;Tecnologia;7300.0;2010-05-08;SaoPaulo
+91;Gustavo Araújo;50.0;Vendas;4700.9;2008-12-22;Rio de janeiro
+92;Bianca Lima;26.0;Tecnologia;;2019-10-21;São Paulo
+93;Paula Mendes;33.0;Financeiro;5400.0;2017-03-14;Rio de janeiro
+94;Rafael Diniz;27.0;RH;3900.3;2020-11-19;Belo Horizonte
+95;Luciana Pires;38.0;Vendas;4500.0;2015-02-17;Sao Paulo
+96;Thiago Martins;49.0;tecnologia;7200.0;2011-05-02;SãoPaulo
+97;Renata Oliveira;36.0;Financeiro;;2012-09-10;RiodeJaneiro
+98;Carlos Silva;41.0;Vendas;5100.5;2016-06-25;São Paulo
+99;Patrícia Castro;30.0;Tecnologia;6800.0;2019-02-07;Sao Paulo
+100;Fernanda Moreira;34.0;RH;4900.0;2013-08-15;Rio de Janeiro
+101;Maria Silva;35.0;Vendas;4500.5;2015-06-22;Sao Paulo
+102;João Souza;28.0;Tecnologia;5300.0;2019-03-12;São paulo
+103;Pedro Lima;45.0;RH;5200.75;2011-08-05;Rio de Janeiro
+104;Ana Costa;;Financeiro;4800.0;2018-01-18;RiodeJaneiro
+105;Lucas Pereira;32.0;Vendas;;2017-05-27;Sao Paulo
+106;Marcelo Andrade;50.0;tecnologia;6800.9;2010-02-11;São Paulo
+107;Clara Alves;42.0;RH;;2013-07-23;Belo Horizonte
+108;Julia Santos;31.0;Vendas;4100.0;2020-09-30;Belo Horizonte
+109;Ricardo Gomes;39.0;Financeiro;4700.65;2016-11-14;RiodeJaneiro
+110;Tatiana Souza;44.0;Tecnologia;7300.0;2010-05-08;SaoPaulo
+111;Gustavo Araújo;50.0;Vendas;4700.9;2008-12-22;Rio de janeiro
+112;Bianca Lima;26.0;Tecnologia;;2019-10-21;São Paulo
+113;Paula Mendes;33.0;Financeiro;5400.0;2017-03-14;Rio de janeiro
+114;Rafael Diniz;27.0;RH;3900.3;2020-11-19;Belo Horizonte
+115;Luciana Pires;38.0;Vendas;4500.0;2015-02-17;Sao Paulo
+116;Thiago Martins;49.0;tecnologia;7200.0;2011-05-02;SãoPaulo
+117;Renata Oliveira;36.0;Financeiro;;2012-09-10;RiodeJaneiro
+118;Carlos Silva;41.0;Vendas;5100.5;2016-06-25;São Paulo
+119;Patrícia Castro;30.0;Tecnologia;6800.0;2019-02-07;Sao Paulo
+120;Fernanda Moreira;34.0;RH;4900.0;2013-08-15;Rio de Janeiro

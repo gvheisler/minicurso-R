@@ -2,6 +2,10 @@ df <- read.csv(url("https://gvheisler.github.io/ds/funcionarios.csv"))
 
 df <- df[,-1]
 
+mean(df$Salario, na.rm = TRUE)
+median(df$Salario, na.rm = TRUE)
+sd(df$Salario, na.rm = TRUE)
+
 df$Idade <- gsub("\\D", "", df$Idade)
 df$Idade <- as.numeric(df$Idade)
 mean(df$Idade[!is.na(df$Idade)])
