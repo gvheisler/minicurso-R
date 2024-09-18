@@ -16,7 +16,7 @@
 |----------|--------------------------------------------------------------------------------|
 | 01       | [Slides](./Aulas/Aula01/Aula01.pdf) -  [Exercicios](./Aulas/Aula01/README.md)  |
 | 02       | [Slides](./Aulas/Aula02/Aula02.pdf) -  [Exercicios](./Aulas/Aula02/Exercicios.md)  |
-| 03       | [Slides](./Aulas/Aula03/aula03.pdf) -  [Exercicios](./Aulas/Aula03/Exercicios.md)  |
+| 03       | [Slides](./Aulas/Aula03/Aula03.pdf) -  [Exercicios](./Aulas/Aula03/Exercicios.md)  |
 | 04       | [Slides](./Aulas/Aula04/Aula04.pdf) -  [Exercicios](./Aulas/Aula04/Exercicios.md)  |
 | Extra       | [Slides](./Aulas/AulaExtra/Aula01.pdf) -  [Exercicios](./Aulas/AulaExtra/Exercicios.md)  |
 
