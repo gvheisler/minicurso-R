@@ -1,0 +1,213 @@
+---
+title: "Minicurso de R - Visualização com ggplot"
+output:
+  html_document: default
+---
+
+### Introdução
+
+-   Gramática de gráficos.
+    -   Controle sobre todos os aspectos do gráfico.
+    -   Alteração iterativa.
+-   Os gráficos são definidos por componentes.
+
+### Instalação
+
+Para instalar o `ggplot`, execute:
+
+```{r, eval=FALSE}
+install.packages('ggplot2')
+install.packages('tidyverse')
+```
+
+Para carregar a biblioteca, execute:
+
+```{r}
+library(ggplot2)
+```
+
+**Observação** - No Linux, talvez seja necessário instalar alguns pacotes de sistema.
+
+### Iris
+
+Por causa de sua simplicidade, vamos usar o dataset `iris`.
+
+```{r}
+iris
+```
+
+### Componentes Obrigatórios
+
+Os componentes *data*, *mapping* e *layer* são fundamentais para o gráfico.
+
+### Data
+
+-   Define qual conjunto de dados usar.
+-   Outros componentes têm acesso a esse conjunto.
+
+```{r}
+ggplot(data = iris)
+```
+
+### Mapping
+
+-   Mapeamento de variáveis do dataset para atributos das *layers*.
+-   A função `aes` sempre define o mapeamento.
+-   Alguns atributos possíveis são `x`, `y`, `shape`, `colour`, `size`, `fill` etc.
+
+```{r}
+ggplot(
+  data = iris,
+  mapping = aes(x = Petal.Length, y = Petal.Width)
+)
+```
+
+### Layers
+
+-   Determinam o tipo de gráfico.
+-   Por exemplo, gráfico de dispersão, histograma, gráfico de barras etc.
+
+```{r}
+ggplot(
+  data = iris,
+  mapping = aes(x = Petal.Length, y = Petal.Width)
+) +
+  geom_point()
+```
+
+### Variáveis Categóricas em Mapeamentos
+
+Quando uma variável categórica é mapeada para um atributo, o `ggplot` mapeia cada valor da variável para um valor único do atributo.
+
+```{r}
+ggplot(
+  data = iris,
+  mapping = aes(x = Petal.Length, y = Petal.Width, color = Species)
+) +
+  geom_point()
+```
+
+**Exercício** - Em vez do atributo `color`, usa o atributo `shape` ou `size` para mudar a forma ou o tamanho dos pontos de acordo com `Species`.
+
+```{r}
+ggplot(
+  data = iris,
+  mapping = aes(x = Petal.Length, y = Petal.Width, shape = Species)
+) +
+  geom_point()
+```
+
+### Herança de Mapeamentos
+
+-   Camadas superiores herdam atributos de camadas inferiores.
+
+```{r}
+ggplot(
+  data = iris,
+  mapping = aes(x = Petal.Length, y = Petal.Width, color = Species)
+) +
+  geom_point() +
+  geom_smooth(method = "lm")
+```
+
+**Exercício** - Recria o gráfico abaixo.
+
+```{r}
+ggplot(
+  data = iris,
+  mapping = aes(x = Petal.Length, y = Petal.Width)
+) +
+  geom_point(mapping = aes(color = Species)) +
+  geom_smooth(method = "lm")
+```
+
+### Labels
+
+```{r}
+ggplot(data = iris) +
+  geom_point(mapping = aes(x = Petal.Length, y = Petal.Width)) +
+  labs(
+    title = "Gráfico de Dispersão", 
+    x = "Comprimento da Pétala", 
+    y = "Largura da Pétala"
+  )
+```
+
+### Gráfico de Barras
+
+```{r}
+ggplot(data = iris, mapping = aes(x = Species)) +
+  geom_bar()
+```
+
+**Exercício** - Colore as barras de acordo com a variável `Species`.
+
+```{r}
+ggplot(data = iris) +
+  geom_bar(mapping = aes(x = Species, fill = Species))
+```
+
+### Histograma
+
+```{r}
+ggplot(data = iris, mapping = aes(x = Petal.Length)) +
+  geom_histogram()
+```
+
+**Exercício** - Altera o número de barras do histograma usando o parâmetro `bins` ou `binwidth`.
+
+```{r}
+ggplot(data = iris, mapping = aes(x = Petal.Length)) +
+  geom_histogram(bins = 15)
+```
+
+### Densidade
+
+A *Probability Density Function* é a curva que se adéqua melhor ao histograma dos dados.
+
+```{r}
+ggplot(data = iris, mapping = aes(x = Petal.Length)) +
+  geom_density()
+```
+
+**Exercício** - Recria o gráfico abaixo. O parâmetro `alpha` especifica a transparência.
+
+```{r}
+ggplot(data = iris) +
+  geom_density(
+    mapping = aes(x = Sepal.Length, fill = Species), 
+    alpha = 0.5
+  ) +
+  labs(
+    title = "Densidade do Comprimento da Sépala por Espécie", 
+    x = "Comprimento da Sépala", 
+    y = "Densidade", 
+    fill = "Espécie"
+  )
+```
+
+### Transformação + Visualização usando o operador pipe (`|>` ou `%>%`).
+
+A biblioteca `dplyr` é similar ao `pandas` do Python: podemos fazer transformações nos dados.
+
+```{r, message=FALSE}
+library(dplyr)
+```
+
+**Exercício** - Cria um gráfico com os valores de `x` e `y` normalizados.
+
+```{r}
+normalize <- function(x) {
+  (x - min(x)) / (max(x) - min(x))
+}
+
+mutate(
+  iris,
+  Petal.Length = normalize(Petal.Length),
+  Petal.Width = normalize(Petal.Width)
+) |>
+  ggplot() +
+  geom_point(mapping = aes(x = Petal.Length, y = Petal.Width))
+```
+
+
